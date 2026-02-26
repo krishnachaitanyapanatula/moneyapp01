@@ -6,7 +6,7 @@ from PIL import Image
 app = Flask(__name__)
 app.secret_key = "supersecretkey"
 
-UPLOAD_FOLDER = 'static/uploads/'
+UPLOAD_FOLDER = 'money1/static/uploads/'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 @app.route('/')
